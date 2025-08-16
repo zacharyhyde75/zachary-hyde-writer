@@ -1,0 +1,59 @@
+body {
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  background-color: #F0F5F0; /* light sage */
+  color: #2F4F4F; /* slate gray */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container img {
+  display: block;
+  max-width: 300px;   /* keeps it inside the column */
+  height: auto;      /* keeps proportions */
+  margin: 1rem auto; /* centers the image and adds spacing */
+}
+
+.media {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px dashed #666; /* dashed line */
+}
+
+.media:last-child {
+  border-bottom: none; /* removes line on last one */
+}
+
+.navbar {
+  text-align: center;       /* center the links */
+  background-color: #f5f5f5; /* light background, tweak to your palette */
+  padding: 1rem;
+  margin-bottom: 2rem;      /* space below the menu */
+}
+
+.navbar a {
+  margin: 0 1rem;          /* equal spacing between links */
+  text-decoration: none;   /* remove underline */
+  color: #2E2E2E;          /* same color for all */
+  font-weight: bold;       /* same weight for all */
+}
+
+.navbar a:hover {
+  color: #d6336c;          /* hover color */
+}
+
+.testimonial {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px dashed #666; /* dashed line */
+}
+
+.testimonial:last-child {
+  border-bottom: none; /* removes line on last one */
+}
