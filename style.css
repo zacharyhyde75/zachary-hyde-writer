@@ -1,8 +1,8 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.6;
-  background-color: #fdf6e3; /* off-white cream */
-  color: #333333; /* dark charcoal */
+  background-color: #f1f7f4;   /* light sage */
+  color: #2e3d34;              /* slate gray text */
   margin: 0;
   padding: 0;
 }
