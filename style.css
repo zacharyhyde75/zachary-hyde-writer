@@ -1,8 +1,8 @@
 body {
   font-family: "Courier New", Courier, monospace;
   line-height: 1.6;
-  background-color: #f1f7f4;   /* light sage */
-  color: #2e3d34;              /* slate gray text */
+  background-color: #f9f9f9;
+  color: #222222;
   margin: 0;
   padding: 0;
 }
